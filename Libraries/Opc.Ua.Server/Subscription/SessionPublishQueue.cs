@@ -827,7 +827,7 @@ namespace Opc.Ua.Server
                 }
                 else
                 {
-                    buffer.AppendFormat(", SessionId={0}", m_session.Id);
+                    buffer.AppendFormat(", SessionId=null");
                 }
 
                 buffer.AppendFormat(", SubscriptionCount={0}", m_queuedSubscriptions.Count);
